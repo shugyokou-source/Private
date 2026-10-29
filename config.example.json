@@ -1,0 +1,13 @@
+{
+  "bark_url": "",
+  "serverchan_key": "",
+  "webhook_url": "",
+  "smtp_host": "",
+  "smtp_port": 465,
+  "smtp_user": "",
+  "smtp_pass": "",
+  "mail_to": "",
+  "deepseek_api_key": "",
+  "ai_base_url": "https://api.deepseek.com",
+  "ai_model": "deepseek-chat"
+}

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#ffffff">
+<title>日本介护政策原文库</title>
+<style>
+:root{
+  --bg:#fff; --bg2:#f5f6f8; --card:#fff; --line:#e5e7eb;
+  --txt:#111827; --txt2:#6b7280; --txt3:#9ca3af;
+  --accent:#1e5eff; --accent-bg:#eef3ff;
+  --tagbg:#f3f4f6; --tagfg:#4b5563;
+  --safe-b:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0f1115; --bg2:#161a20; --card:#1a1e25; --line:#2a3038;
+    --txt:#e8eaed; --txt2:#9aa0a8; --txt3:#6b7280;
+    --accent:#6a9bff; --accent-bg:#1b2740;
+    --tagbg:#242a33; --tagfg:#a8b0ba;
+  }
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg);color:var(--txt);
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",
+    "PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:15px;line-height:1.6;
+  padding-bottom:calc(72px + var(--safe-b));
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  position:sticky;top:0;z-index:30;background:var(--bg);
+  border-bottom:1px solid var(--line);
+  padding:calc(env(safe-area-inset-top,0px) + 12px) 16px 0;
+}
+.hd{display:flex;align-items:baseline;gap:8px;margin-bottom:10px}
+h1{font-size:18px;margin:0;font-weight:700;letter-spacing:-.2px}
+.meta{font-size:11.5px;color:var(--txt3);margin-left:auto}
+.search{position:relative;margin-bottom:10px}
+.search input{
+  width:100%;padding:10px 12px 10px 36px;border-radius:10px;
+  border:1px solid var(--line);background:var(--bg2);color:var(--txt);
+  font-size:15px;outline:none;font-family:inherit;
+}
+.search input:focus{border-color:var(--accent);background:var(--bg)}
+.search .ico{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--txt3);font-size:14px}
+.chips{display:flex;gap:7px;overflow-x:auto;padding-bottom:10px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{
+  flex:0 0 auto;padding:5px 12px;border-radius:999px;background:var(--tagbg);
+  color:var(--tagfg);font-size:12.5px;border:1px solid transparent;
+  cursor:pointer;white-space:nowrap;transition:.15s;
+}
+.chip.on{background:var(--accent-bg);color:var(--accent);border-color:var(--accent);font-weight:600}
+.stats{padding:10px 16px;font-size:12px;color:var(--txt2);display:flex;gap:10px;align-items:center}
+.stats b{color:var(--txt);font-weight:600}
+.tabs{display:flex;gap:0;padding-bottom:10px}
+.tab{
+  flex:1;padding:7px 0;font-size:13px;font-family:inherit;cursor:pointer;
+  background:transparent;border:none;border-bottom:2px solid transparent;
+  color:var(--txt2);font-weight:500;
+}
+.tab.on{color:var(--accent);border-bottom-color:var(--accent);font-weight:600}
+.zh{font-size:14px;line-height:1.55;color:var(--txt);margin-top:7px;padding-left:9px;
+    border-left:2px solid var(--accent);letter-spacing:-.1px}
+.zh .lbl{font-size:10px;color:var(--accent);font-weight:600;margin-right:4px}
+.imp{font-size:10.5px;color:#d97706;letter-spacing:-1px}
+main{padding:0 12px}
+.item{
+  background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:12px 13px;margin-bottom:9px;position:relative;
+}
+.item:active{background:var(--bg2)}
+.row1{display:flex;align-items:center;gap:7px;margin-bottom:5px;flex-wrap:wrap}
+.date{font-size:11.5px;color:var(--txt2);font-variant-numeric:tabular-nums;font-weight:500}
+.vol{font-size:10.5px;padding:1px 6px;border-radius:4px;background:var(--accent-bg);color:var(--accent);font-weight:600}
+.src{font-size:10.5px;padding:1px 6px;border-radius:4px;background:var(--tagbg);color:var(--tagfg)}
+.title{font-size:14.5px;line-height:1.55;word-break:break-word;letter-spacing:-.1px}
+.title a{color:var(--txt);text-decoration:none}
+.title a:active{color:var(--accent)}
+.org{font-size:11.5px;color:var(--txt2);margin-top:6px;line-height:1.45}
+.tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
+.tag{font-size:10.5px;color:var(--tagfg);background:var(--tagbg);padding:2px 7px;border-radius:5px}
+.note{font-size:11px;color:#b45309;margin-top:6px}
+.links{display:flex;gap:8px;margin-top:9px;flex-wrap:wrap}
+.lnk{
+  font-size:12.5px;padding:5px 11px;border-radius:8px;text-decoration:none;
+  background:var(--bg2);color:var(--accent);border:1px solid var(--line);font-weight:500;
+}
+.lnk:active{background:var(--accent-bg)}
+.empty{text-align:center;color:var(--txt3);padding:60px 20px;font-size:14px}
+footer{
+  position:fixed;left:0;right:0;bottom:0;z-index:40;
+  background:color-mix(in srgb,var(--bg) 92%,transparent);
+  backdrop-filter:saturate(180%) blur(20px);
+  border-top:1px solid var(--line);
+  padding:8px 12px calc(8px + var(--safe-b));
+  display:flex;gap:8px;
+}
+footer button{
+  flex:1;padding:9px;border-radius:9px;border:1px solid var(--line);
+  background:var(--bg2);color:var(--txt);font-size:13px;font-family:inherit;
+  cursor:pointer;font-weight:500;
+}
+footer button:active{background:var(--accent-bg);color:var(--accent)}
+.toast{
+  position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);
+  background:rgba(17,24,39,.92);color:#fff;padding:9px 18px;border-radius:20px;
+  font-size:13px;opacity:0;transition:.25s;z-index:99;pointer-events:none;
+}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+mark{background:#fde68a;color:#111;padding:0 2px;border-radius:2px}
+@media (prefers-color-scheme:dark){mark{background:#7c6a1f;color:#fff}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hd">
+    <h1>日本介护政策原文库</h1>
+    <span class="meta" id="meta"></span>
+  </div>
+  <div class="search">
+    <span class="ico">🔍</span>
+    <input id="q" type="search" placeholder="搜索标题、机关、卷号…" autocomplete="off">
+  </div>
+  <div class="chips" id="srcChips"></div>
+  <div class="tabs" id="viewTabs">
+    <button class="tab on" data-mode="orig">日文原文</button>
+    <button class="tab" data-mode="zh">中文摘要</button>
+  </div>
+</header>
+
+<div class="stats" id="stats"></div>
+<main id="list"></main>
+
+<footer>
+  <button id="btnLatest">最新 50 条</button>
+  <button id="btnClear">清除筛选</button>
+  <button id="btnCsv">导出 CSV</button>
+</footer>
+<div class="toast" id="toast"></div>
+
+<script>
+const DATA = __DATA__;
+const ITEMS = DATA.items;
+const YEAR0 = Number((DATA.meta.from||"2016").slice(0,4));
+const YEAR1 = Number((DATA.meta.to||"2026").slice(0,4));
+
+let state = { q:"", src:"", year:"", tag:"", mode:"orig" };
+
+const $ = id => document.getElementById(id);
+const esc = s => (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function toast(msg){
+  const t=$("toast"); t.textContent=msg; t.classList.add("on");
+  clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove("on"),1800);
+}
+
+function hl(text, q){
+  if(!q) return esc(text);
+  const t = esc(text);
+  const k = q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+  return t.replace(new RegExp("("+k+")","gi"), "<mark>$1</mark>");
+}
+
+function srcLabel(s){
+  if(s.includes("報道発表")) return "报道发表";
+  if(s.includes("WAM")) return "WAM";
+  return "最新情报";
+}
+
+// 顶部筛选条：来源 + 年份 + 主题
+function buildChips(){
+  const box = $("srcChips");
+  const chips = [];
+  chips.push({k:"src", v:"", label:"全部"});
+  chips.push({k:"src", v:"厚生労働省 介護保険最新情報", label:"最新情报"});
+  chips.push({k:"src", v:"WAM.NET 介護保険最新情報", label:"WAM存档"});
+  chips.push({k:"src", v:"厚生労働省 報道発表資料", label:"报道发表"});
+  chips.push({k:"tag", v:"介護報酬", label:"介护报酬"});
+  chips.push({k:"tag", v:"制度改正", label:"制度改正"});
+  chips.push({k:"tag", v:"介護人材", label:"介护人材"});
+  chips.push({k:"tag", v:"認知症", label:"认知症"});
+  chips.push({k:"tag", v:"信息化/DX", label:"信息化"});
+  chips.push({k:"tag", v:"要介護認定", label:"要介护认定"});
+  chips.push({k:"tag", v:"给付费/统计", label:"给付统计"});
+  box.innerHTML = "";
+  chips.forEach(c=>{
+    const d=document.createElement("div");
+    d.className="chip";
+    d.textContent=c.label;
+    d.dataset.k=c.k; d.dataset.v=c.v;
+    d.onclick=()=>{
+      if(c.k==="src"&&c.v===""){ state.src=""; state.tag=""; }
+      else if(c.k==="src"){ state.src = state.src===c.v? "":c.v; if(state.src) state.tag=""; }
+      else { state.tag = state.tag===c.v? "":c.v; if(state.tag) state.src=""; }
+      paintChips(); render();
+    };
+    box.appendChild(d);
+  });
+  paintChips();
+}
+function paintChips(){
+  document.querySelectorAll(".chip").forEach(d=>{
+    const k=d.dataset.k, v=d.dataset.v;
+    let on=false;
+    if(k==="src") on = (v===""? (state.src===""&&state.tag==="") : state.src===v);
+    else on = state.tag===v;
+    d.classList.toggle("on", on);
+  });
+}
+
+function filtered(){
+  const q = state.q.trim().toLowerCase();
+  return ITEMS.filter(x=>{
+    if(state.src && x.s!==state.src) return false;
+    if(state.tag && !(x.g||[]).includes(state.tag)) return false;
+    if(state.year && !(x.d||"").startsWith(state.year)) return false;
+    if(!q) return true;
+    return (x.t||"").toLowerCase().includes(q)
+        || (x.o||"").toLowerCase().includes(q)
+        || (x.v||"").includes(q)
+        || (x.d||"").includes(q);
+  });
+}
+
+function render(){
+  const list = $("list");
+  let arr = filtered();
+  const total = arr.length;
+  arr.sort((a,b)=> (b.d||"").localeCompare(a.d||"") || (Number(b.v||0)-Number(a.v||0)));
+  const cap = 300;
+  const view = arr.slice(0, cap);
+
+  $("stats").innerHTML = total
+    ? `共 <b>${total}</b> 条${total>cap?`（显示前 ${cap} 条，用搜索缩小范围）`:""}`
+    : "";
+
+  if(!total){
+    list.innerHTML = `<div class="empty">没有匹配的条目<br><span style="font-size:12px">试试搜索「介護報酬」「認知症」或年份</span></div>`;
+    return;
+  }
+
+  const frag = document.createDocumentFragment();
+  view.forEach(x=>{
+    const el = document.createElement("div");
+    el.className="item";
+    const vol = x.v? `<span class="vol">Vol.${esc(x.v)}</span>`:"";
+    const alt = (x.a&&x.a.length)? `<a class="lnk" href="${esc(x.a[0])}" target="_blank" rel="noopener">备用链接</a>`:"";
+    const tags = (x.g||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("");
+    const imp = x.im? `<span class="imp">${"★".repeat(x.im)}</span>`:"";
+    // 原文行；中文模式下附译文与摘要（原文始终可见，不被替换）
+    const zhBlock = (x.sz||x.tz) ? `
+      <div class="zh">
+        ${x.tz?`<div><span class="lbl">中</span>${esc(x.tz)}</div>`:""}
+        ${x.sz?`<div><span class="lbl">要</span>${esc(x.sz)}</div>`:""}
+      </div>` : "";
+    const showZh = state.mode==="zh";
+    el.innerHTML = `
+      <div class="row1">
+        <span class="date">${esc(x.d||"—")}</span>
+        ${vol}
+        ${imp}
+        <span class="src">${srcLabel(x.s)}</span>
+      </div>
+      <div class="title"><a href="${esc(x.u)}" target="_blank" rel="noopener">${hl(x.t, state.q.trim())}</a></div>
+      ${showZh? zhBlock : ""}
+      ${x.o?`<div class="org">${hl(x.o, state.q.trim())}</div>`:""}
+      ${x.n?`<div class="note">⚠ ${esc(x.n)}</div>`:""}
+      ${tags?`<div class="tags">${tags}</div>`:""}
+      <div class="links">
+        <a class="lnk" href="${esc(x.u)}" target="_blank" rel="noopener">打开原文 →</a>
+        ${alt}
+      </div>`;
+    frag.appendChild(el);
+  });
+  list.innerHTML="";
+  list.appendChild(frag);
+}
+
+// 导出当前筛选结果为 CSV
+function exportCsv(){
+  const arr = filtered().sort((a,b)=>(b.d||"").localeCompare(a.d||""));
+  const rows = [["日期","标题(原文)","发文机关","卷号","主题","原文链接"]];
+  arr.forEach(x=>rows.push([x.d||"",x.t,x.o||"",x.v||"",(x.g||[]).join("/"),x.u]));
+  const csv = "\ufeff" + rows.map(r=>r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(",")).join("\n");
+  const blob = new Blob([csv],{type:"text/csv;charset=utf-8"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `介护政策原文_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href), 3000);
+  toast(`已导出 ${arr.length} 条`);
+}
+
+let timer;
+$("q").addEventListener("input", e=>{
+  clearTimeout(timer);
+  state.q = e.target.value;
+  timer = setTimeout(render, 120);
+});
+$("btnLatest").onclick = ()=>{
+  state = {q:"", src:"", year:"", tag:"", mode:state.mode};
+  $("q").value=""; paintChips();
+  render();
+  toast("已显示最新条目");
+};
+$("btnClear").onclick = ()=>{
+  state={q:"",src:"",year:"",tag:"",mode:state.mode};
+  $("q").value=""; paintChips(); render(); toast("已清除");
+};
+$("btnCsv").onclick = exportCsv;
+
+// 原文 / 中文 视图切换
+document.querySelectorAll(".tab").forEach(b=>{
+  b.onclick = ()=>{
+    state.mode = b.dataset.mode;
+    document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("on", x===b));
+    render();
+    if(state.mode==="zh" && !ITEMS.some(x=>x.sz||x.tz)) toast("暂无中文摘要，配置 AI 后自动生成");
+  };
+});
+
+$("meta").textContent = `${DATA.meta.total} 条 · ${DATA.meta.from.slice(0,7)} 至 ${DATA.meta.to.slice(0,7)}`;
+buildChips();
+render();
+</script>
+</body>
+</html>
