@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "kaigo-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/items.json data/summary_cache.json data/latest.json out/
+          git add -A
           git diff --cached --quiet && echo "无变化，跳过提交" || git commit -m "daily update $(date -u +%F)"
           git pull --rebase --autostash origin main || true
           git push
