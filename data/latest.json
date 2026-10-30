@@ -1,9 +1,46 @@
 {
- "generated_at": "2026-10-30T08:32:59.982334+09:00",
+ "generated_at": "2026-10-31T08:32:22.642412+09:00",
  "years": 10,
  "mode": "increment",
- "total_archived": 1180,
- "new_count": 0,
- "new_items": [],
+ "total_archived": 1182,
+ "new_count": 2,
+ "new_items": [
+  {
+   "source": "厚生労働省 報道発表資料",
+   "source_id": "mhlw_houdou",
+   "title": "介護給付費等実態統計月報（令和８（2026）年７月審査分） NEW",
+   "org": "厚生労働省",
+   "doc_no": null,
+   "date": "2026-10-30",
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/kaigo/kyufu/2026/07.html",
+   "pdf": null,
+   "tags": [
+    "给付费/统计"
+   ],
+   "id": "bf5fe9b9b7e86d47",
+   "first_seen": "2026-10-31T08:32:22.642412+09:00",
+   "title_zh": "介护给付费等实际情况统计月报（令和8（2026）年7月审查部分） NEW",
+   "summary_zh": "汇总2026年7月审查的介护保险给付费用等实际数据，用于掌握介护服务使用和费用支出动向，供政策制定与统计监测参考。",
+   "importance": 2
+  },
+  {
+   "source": "厚生労働省 報道発表資料",
+   "source_id": "mhlw_houdou",
+   "title": "令和８年度地域介護・福祉空間整備等施設整備交付金（一次協議分）の内示について（追加内示） NEW",
+   "org": "厚生労働省",
+   "doc_no": null,
+   "date": "2026-10-30",
+   "url": "https://www.mhlw.go.jp/stf/hard2026-10_00001.html",
+   "pdf": null,
+   "tags": [
+    "预算/税制"
+   ],
+   "id": "befb02c44002834f",
+   "first_seen": "2026-10-31T08:32:22.642412+09:00",
+   "title_zh": "关于令和8年度地区介护・福祉空间整备等设施整备交付金（一次协议分）内示（追加内示） NEW",
+   "summary_zh": "厚生劳动省向各都道府县等通知令和8年度地区介护・福祉设施整备交付金的追加内示额度，涉及申请该交付金进行设施整备的地方政府及设施整备主体。",
+   "importance": 3
+  }
+ ],
  "errors": []
 }

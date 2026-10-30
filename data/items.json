@@ -1,5 +1,35 @@
 [
  {
+  "source": "厚生労働省 報道発表資料",
+  "source_id": "mhlw_houdou",
+  "title": "介護給付費等実態統計月報（令和８（2026）年７月審査分） NEW",
+  "org": "厚生労働省",
+  "doc_no": null,
+  "date": "2026-10-30",
+  "url": "https://www.mhlw.go.jp/toukei/saikin/hw/kaigo/kyufu/2026/07.html",
+  "pdf": null,
+  "tags": [
+   "给付费/统计"
+  ],
+  "id": "bf5fe9b9b7e86d47",
+  "first_seen": "2026-10-31T08:32:22.642412+09:00"
+ },
+ {
+  "source": "厚生労働省 報道発表資料",
+  "source_id": "mhlw_houdou",
+  "title": "令和８年度地域介護・福祉空間整備等施設整備交付金（一次協議分）の内示について（追加内示） NEW",
+  "org": "厚生労働省",
+  "doc_no": null,
+  "date": "2026-10-30",
+  "url": "https://www.mhlw.go.jp/stf/hard2026-10_00001.html",
+  "pdf": null,
+  "tags": [
+   "预算/税制"
+  ],
+  "id": "befb02c44002834f",
+  "first_seen": "2026-10-31T08:32:22.642412+09:00"
+ },
+ {
   "source": "WAM.NET 介護保険最新情報",
   "source_id": "wam_ksvol",
   "title": "介護保険最新情報Vol.1550 介護保険制度における預貯金等の把握等に係る検討の場中間とりまとめについて",
