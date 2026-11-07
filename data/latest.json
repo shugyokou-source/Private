@@ -1,26 +1,9 @@
 {
- "generated_at": "2026-11-07T08:34:42.163390+09:00",
+ "generated_at": "2026-11-08T08:32:26.162135+09:00",
  "years": 10,
  "mode": "increment",
  "total_archived": 1183,
- "new_count": 1,
- "new_items": [
-  {
-   "source": "厚生労働省 報道発表資料",
-   "source_id": "mhlw_houdou",
-   "title": "令和８年度「介護老人保健施設事業功労者厚生労働大臣表彰」の受賞者について",
-   "org": "厚生労働省",
-   "doc_no": null,
-   "date": "2026-10-21",
-   "url": "https://www.mhlw.go.jp/stf/newpage_76587.html",
-   "pdf": null,
-   "tags": [],
-   "id": "3b13bc00404c684d",
-   "first_seen": "2026-11-07T08:34:42.163390+09:00",
-   "title_zh": "关于令和8年度「介护老人保健设施事业有功者厚生劳动大臣表彰」获奖者的通知",
-   "summary_zh": "公布令和8年度介护老人保健设施事业有功者厚生劳动大臣表彰的获奖者名单，对象为长期从事介护老人保健设施事业的从业人员。",
-   "importance": 1
-  }
- ],
+ "new_count": 0,
+ "new_items": [],
  "errors": []
 }
