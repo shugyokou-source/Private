@@ -1,9 +1,115 @@
 {
- "generated_at": "2026-11-08T08:32:26.162135+09:00",
+ "generated_at": "2026-11-09T08:33:53.571731+09:00",
  "years": 10,
  "mode": "increment",
- "total_archived": 1183,
- "new_count": 0,
- "new_items": [],
+ "total_archived": 1188,
+ "new_count": 5,
+ "new_items": [
+  {
+   "source": "厚生労働省 介護保険最新情報",
+   "source_id": "mhlw_latestinfo",
+   "title": "介護保険最新情報vol.1524&#160;「令和６年度介護報酬改定に関するＱ＆Ａ（Vol.18）（令和８年７月 14 日）」 の送付について",
+   "org": "厚生労働省老健局老人保健課事務連絡",
+   "doc_no": "1524",
+   "date": "2026-07-14",
+   "url": "https://www.mhlw.go.jp/content/001722883.pdf",
+   "pdf": "https://www.mhlw.go.jp/content/001722883.pdf",
+   "tags": [
+    "介護報酬"
+   ],
+   "id": "9a2e12a42040f0dc",
+   "alt_urls": [
+    "https://www.wam.go.jp/gyoseiShiryou-files/documents/2026/0715093026337/ksvol.1524.pdf"
+   ],
+   "first_seen": "2026-11-09T08:33:53.571731+09:00",
+   "title_zh": "介护保险最新情报Vol.1524 关于发送《令和6年度介护报酬改定相关问答（Vol.18）（令和8年7月14日）》的通知",
+   "summary_zh": "厚生劳动省向各都道府县等发送令和6年度介护报酬改定问答第18版，就报酬计算和认定标准等具体适用问题作出官方解释，供介护服务机构和地方自治体执行时参照。",
+   "importance": 4
+  },
+  {
+   "source": "厚生労働省 介護保険最新情報",
+   "source_id": "mhlw_latestinfo",
+   "title": "介護保険最新情報vol.1523「「指定居宅サービスに要する費用の額の算定に関する基準 （訪問通所サービス、居宅療養管理指導及び福祉用具貸与 に係る部分）及び指定居宅介護支援に要する費用の額の算 定に関する基準の制定に伴う実施上の留意事項について」 等の一部改正について」の発出等に伴うＱ＆Ａ(Vol.２) （令和８年７月 13 日）の送付について&#160;",
+   "org": "厚生労働省老健局高齢者支援課、認知症施策・地域介護推進課、老人保健課事務連絡",
+   "doc_no": "1523",
+   "date": "2026-07-13",
+   "url": "https://www.mhlw.go.jp/content/001722713.pdf",
+   "pdf": "https://www.mhlw.go.jp/content/001722713.pdf",
+   "tags": [
+    "制度改正",
+    "福祉用具/住宅改修"
+   ],
+   "id": "c787581813d3738d",
+   "alt_urls": [
+    "https://www.wam.go.jp/gyoseiShiryou-files/documents/2026/0714091210443/ksvol.1523.pdf"
+   ],
+   "first_seen": "2026-11-09T08:33:53.571731+09:00",
+   "title_zh": "介护保险最新情报Vol.1523：关于随《指定居家服务所需费用额算定相关基准（访问通所服务、居家疗养管理指导及福祉用具租赁相关部分）及指定居家介护支援所需费用额算定相关基准制定实施注意事项》等部分修订发布所附问答（Vol.2）（令和8年7月13日）的送付",
+   "summary_zh": "厚生劳动省就居家服务及居家介护支援报酬算定基准修订的实施注意事项，发布配套问答第二版，供地方自治体及服务提供机构参照执行。",
+   "importance": 4
+  },
+  {
+   "source": "厚生労働省 介護保険最新情報",
+   "source_id": "mhlw_latestinfo",
+   "title": "介護保険最新情報vol.1189&#160; (アルツハイマー病の新しい治療薬に関する情報の周知について)",
+   "org": "厚生労働省老健局認知症施策・地域介護推進課事務連絡",
+   "doc_no": "1189",
+   "date": "2023-12-20",
+   "url": "https://www.mhlw.go.jp/content/001181702.pdf",
+   "pdf": "https://www.mhlw.go.jp/content/001181702.pdf",
+   "tags": [],
+   "id": "fcd9511f3123a3f2",
+   "alt_urls": [
+    "https://www.wam.go.jp/gyoseiShiryou-files/documents/2023/1222093019778/ksvol.1189.pdf"
+   ],
+   "first_seen": "2026-11-09T08:33:53.571731+09:00",
+   "title_zh": "介护保险最新信息Vol.1189（关于阿尔茨海默病新型治疗药物信息的周知）",
+   "summary_zh": "向各都道府县等通知阿尔茨海默病新型治疗药物的相关信息，要求向介护保险相关机构和地区综合支援中心等周知，供其掌握并用于咨询应对。",
+   "importance": 3
+  },
+  {
+   "source": "厚生労働省 介護保険最新情報",
+   "source_id": "mhlw_latestinfo",
+   "title": "介護保険最新情報vol.1188&#160; (感染症対策のための実地での研修に係る 令和５年度における募集について)",
+   "org": "厚生労働省老健局高齢者支援課事務連絡",
+   "doc_no": "1188",
+   "date": "2023-12-07",
+   "url": "https://www.mhlw.go.jp/content/001176100.pdf",
+   "pdf": "https://www.mhlw.go.jp/content/001176100.pdf",
+   "tags": [
+    "介護人材",
+    "感染症"
+   ],
+   "id": "040164f518bfde3a",
+   "alt_urls": [
+    "https://www.wam.go.jp/gyoseiShiryou-files/documents/2023/1207140741548/ksvol.1188.pdf"
+   ],
+   "first_seen": "2026-11-09T08:33:53.571731+09:00",
+   "title_zh": "介护保险最新情报Vol.1188（关于为应对传染病而开展实地研修的2023年度招募）",
+   "summary_zh": "厚生劳动省通知各都道府县等，启动2023年度以传染病对策为目的的实地研修招募，涉及介护设施及研修实施机构。",
+   "importance": 3
+  },
+  {
+   "source": "厚生労働省 介護保険最新情報",
+   "source_id": "mhlw_latestinfo",
+   "title": "介護保険最新情報vol.1090（「令和３年度介護報酬改定に関するＱ＆Ａ （Vol.12）（令和４年７ 月&#160;20 日）」の送付について）",
+   "org": "厚生労働省老健局老人保健課事務連絡",
+   "doc_no": "1090",
+   "date": "2022-07-20",
+   "url": "https://www.mhlw.go.jp/content/000966633.pdf",
+   "pdf": "https://www.mhlw.go.jp/content/000966633.pdf",
+   "tags": [
+    "介護報酬"
+   ],
+   "id": "ddbc1fb9cfb5c2b0",
+   "alt_urls": [
+    "https://www.wam.go.jp/gyoseiShiryou-files/documents/2022/0721093631229/ksvol.1090.pdf"
+   ],
+   "first_seen": "2026-11-09T08:33:53.571731+09:00",
+   "title_zh": "介护保险最新情报Vol.1090（关于发送《令和3年度介护报酬改定相关Q&A（Vol.12）（2022年7月20日）》的通知）",
+   "summary_zh": "厚生劳动省向各都道府县等发送令和3年度介护报酬改定Q&A第12版，就报酬计算和认定标准等具体适用问题作出官方解答，供介护服务提供者和保险者参照执行。",
+   "importance": 3
+  }
+ ],
  "errors": []
 }
