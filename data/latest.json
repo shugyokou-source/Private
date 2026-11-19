@@ -1,28 +1,48 @@
 {
- "generated_at": "2026-11-19T08:47:39.413275+09:00",
+ "generated_at": "2026-11-20T08:41:45.399774+09:00",
  "years": 10,
  "mode": "increment",
- "total_archived": 1189,
- "new_count": 1,
+ "total_archived": 1191,
+ "new_count": 2,
  "new_items": [
   {
    "source": "厚生労働省 介護保険最新情報",
    "source_id": "mhlw_latestinfo",
-   "title": "介護保険最新情報Vol.1551（建築基準法施行令の一部を改正する政令等の施行に伴",
+   "title": "介護保険最新情報Vol.1551（建築基準法施行令の一部を改正する政令等の施行に伴う採光規制の対象外の合理化について（周知））",
    "org": "厚生労働省老健局認知症施策・地域介護推進課事務連絡",
    "doc_no": "1551",
    "date": "2026-11-18",
-   "url": "https://www.mhlw.go.jp/content/001770760.pdf",
-   "pdf": "https://www.mhlw.go.jp/content/001770760.pdf",
+   "url": "https://www.mhlw.go.jp/content/001770868.pdf",
+   "pdf": "https://www.mhlw.go.jp/content/001770868.pdf",
    "tags": [
     "制度改正"
    ],
-   "id": "c9d302e8675e3c4d",
-   "alt_urls": [],
-   "first_seen": "2026-11-19T08:47:39.413275+09:00",
-   "title_zh": "介护保险最新信息Vol.1551（伴随建筑基准法施行令部分修订政令等的施行）",
-   "summary_zh": "通知各都道府县等，建筑基准法施行令修订政令施行后，介护设施等在建筑确认和用途变更上的办理要求随之调整，相关设施运营方需按新规执行。",
+   "id": "a9b205c29f0eda43",
+   "alt_urls": [
+    "https://www.wam.go.jp/gyoseiShiryou-files/documents/2026/111909364579/ksvol.1551.pdf"
+   ],
+   "first_seen": "2026-11-20T08:41:45.399774+09:00",
+   "title_zh": "介护保险最新信息Vol.1551（关于伴随建筑基准法施行令部分修订政令等施行的采光规制对象外合理化的通知）",
+   "summary_zh": "通知各相关方：建筑基准法施行令修订后，部分设施不再适用采光规制，要求介护设施相关方按新规办理。",
    "importance": 3
+  },
+  {
+   "source": "厚生労働省 報道発表資料",
+   "source_id": "mhlw_houdou",
+   "title": "「第15回 健康寿命をのばそう！アワード（介護予防・高齢者生活支援分野）」の表彰式を行います NEW",
+   "org": "厚生労働省",
+   "doc_no": null,
+   "date": "2026-11-19",
+   "url": "https://www.mhlw.go.jp/stf/newpage_77302.html",
+   "pdf": null,
+   "tags": [
+    "地域支援事業"
+   ],
+   "id": "9b00951b35fe52b3",
+   "first_seen": "2026-11-20T08:41:45.399774+09:00",
+   "title_zh": "举办第15届「延长健康寿命！大奖」（介护预防・高龄者生活支援领域）颁奖典礼 NEW",
+   "summary_zh": "厚生劳动省举办第15届延长健康寿命大奖颁奖典礼，表彰在介护预防和高龄者生活支援领域的优秀举措，对象为参赛团体及相关从业者。",
+   "importance": 1
   }
  ],
  "errors": []
