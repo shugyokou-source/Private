@@ -1,5 +1,21 @@
 [
  {
+  "source": "厚生労働省 介護保険最新情報",
+  "source_id": "mhlw_latestinfo",
+  "title": "介護保険最新情報Vol.1552（ケアプランデータ連携システムの介護保険資格確認等WEB サービスへの移行について（その２））",
+  "org": "厚生労働省老健局高齢者支援課、介護保険計画課、認知症施策・地域介護推進課、老人保健課事務連絡",
+  "doc_no": "1552",
+  "date": "2026-11-25",
+  "url": "https://www.mhlw.go.jp/content/001772420.pdf",
+  "pdf": "https://www.mhlw.go.jp/content/001772420.pdf",
+  "tags": [
+   "信息化/DX"
+  ],
+  "id": "1e792e887cd09ea0",
+  "alt_urls": [],
+  "first_seen": "2026-11-26T08:48:13.122500+09:00"
+ },
+ {
   "source": "厚生労働省 報道発表資料",
   "source_id": "mhlw_houdou",
   "title": "「第15回 健康寿命をのばそう！アワード（介護予防・高齢者生活支援分野）」の表彰式を行います NEW",
@@ -47,6 +63,19 @@
    "https://www.wam.go.jp/gyoseiShiryou-files/documents/2026/111909364579/ksvol.1551.pdf"
   ],
   "first_seen": "2026-11-20T08:41:45.399774+09:00"
+ },
+ {
+  "source": "厚生労働省 報道発表資料",
+  "source_id": "mhlw_houdou",
+  "title": "令和８年度地域医療介護総合確保基金（介護分）の内示（２回目）について NEW",
+  "org": "厚生労働省",
+  "doc_no": null,
+  "date": "2026-11-18",
+  "url": "https://www.mhlw.go.jp/stf/houdou/R8_2_00001.html",
+  "pdf": null,
+  "tags": [],
+  "id": "4235f82b8529f6c2",
+  "first_seen": "2026-11-26T08:48:13.122500+09:00"
  },
  {
   "source": "厚生労働省 報道発表資料",

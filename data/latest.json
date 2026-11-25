@@ -1,9 +1,45 @@
 {
- "generated_at": "2026-11-25T08:48:08.077840+09:00",
+ "generated_at": "2026-11-26T08:48:13.122500+09:00",
  "years": 10,
  "mode": "increment",
- "total_archived": 1191,
- "new_count": 0,
- "new_items": [],
+ "total_archived": 1193,
+ "new_count": 2,
+ "new_items": [
+  {
+   "source": "厚生労働省 介護保険最新情報",
+   "source_id": "mhlw_latestinfo",
+   "title": "介護保険最新情報Vol.1552（ケアプランデータ連携システムの介護保険資格確認等WEB サービスへの移行について（その２））",
+   "org": "厚生労働省老健局高齢者支援課、介護保険計画課、認知症施策・地域介護推進課、老人保健課事務連絡",
+   "doc_no": "1552",
+   "date": "2026-11-25",
+   "url": "https://www.mhlw.go.jp/content/001772420.pdf",
+   "pdf": "https://www.mhlw.go.jp/content/001772420.pdf",
+   "tags": [
+    "信息化/DX"
+   ],
+   "id": "1e792e887cd09ea0",
+   "alt_urls": [],
+   "first_seen": "2026-11-26T08:48:13.122500+09:00",
+   "title_zh": "介护保险最新信息Vol.1552（关于护理计划数据联动系统向介护保险资格确认等WEB服务的迁移（其2））",
+   "summary_zh": "通知护理计划数据联动系统将迁移至介护保险资格确认等WEB服务，说明迁移安排及对使用该系统的护理服务机构和相关业务的影响。",
+   "importance": 3
+  },
+  {
+   "source": "厚生労働省 報道発表資料",
+   "source_id": "mhlw_houdou",
+   "title": "令和８年度地域医療介護総合確保基金（介護分）の内示（２回目）について NEW",
+   "org": "厚生労働省",
+   "doc_no": null,
+   "date": "2026-11-18",
+   "url": "https://www.mhlw.go.jp/stf/houdou/R8_2_00001.html",
+   "pdf": null,
+   "tags": [],
+   "id": "4235f82b8529f6c2",
+   "first_seen": "2026-11-26T08:48:13.122500+09:00",
+   "title_zh": "关于令和8年度地区医疗介护综合确保基金（介护部分）的第二次内示 NEW",
+   "summary_zh": "厚生劳动省向各都道府县第二次内示令和8年度地区医疗介护综合确保基金中介护部分的分配额度，供地方据此编制预算和安排介护设施整备等项目。",
+   "importance": 3
+  }
+ ],
  "errors": []
 }
