@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-27T08:53:39.845449+09:00",
+ "years": 10,
+ "mode": "increment",
+ "total_archived": 1196,
+ "new_count": 3,
+ "new_items": [
+  {
+   "source": "厚生労働省 介護保険最新情報",
+   "source_id": "mhlw_latestinfo",
+   "title": "介護保険最新情報Vol.1553（第10期計画期間に向けた第１号保険料に関する検討について）",
+   "org": "厚生労働省老健局介護保険計画課事務連絡",
+   "doc_no": "1553",
+   "date": "2026-11-26",
+   "url": "https://www.mhlw.go.jp/content/001772546.pdf",
+   "pdf": "https://www.mhlw.go.jp/content/001772546.pdf",
+   "tags": [],
+   "id": "6e7abbda1a143731",
+   "alt_urls": [],
+   "first_seen": "2026-11-27T08:53:39.845449+09:00"
+  },
+  {
+   "source": "厚生労働省 報道発表資料",
+   "source_id": "mhlw_houdou",
+   "title": "「認知症バリアフリー情報交換会・交流会」を開催します（開催案内） NEW",
+   "org": "厚生労働省",
+   "doc_no": null,
+   "date": "2026-11-26",
+   "url": "https://www.mhlw.go.jp/stf/newpage_241219_00014.html",
+   "pdf": null,
+   "tags": [
+    "認知症"
+   ],
+   "id": "9efb43764910f859",
+   "first_seen": "2026-11-27T08:53:39.845449+09:00"
+  },
+  {
+   "source": "厚生労働省 報道発表資料",
+   "source_id": "mhlw_houdou",
+   "title": "「第1回 今後の仕事と育児・介護の両立支援に関する研究会」（ハイブリッド会議）を開催します（開催案内）",
+   "org": "厚生労働省",
+   "doc_no": null,
+   "date": "2023-01-23",
+   "url": "https://www.mhlw.go.jp/stf/newpage_30437.html",
+   "pdf": null,
+   "tags": [],
+   "id": "7c23ce5c004535ec",
+   "first_seen": "2026-11-27T08:53:39.845449+09:00"
+  }
+ ],
+ "errors": []
+}
