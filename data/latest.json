@@ -1,60 +1,28 @@
 {
- "generated_at": "2026-11-27T08:53:39.845449+09:00",
+ "generated_at": "2026-11-28T08:50:35.603803+09:00",
  "years": 10,
  "mode": "increment",
- "total_archived": 1196,
- "new_count": 3,
+ "total_archived": 1197,
+ "new_count": 1,
  "new_items": [
   {
    "source": "厚生労働省 介護保険最新情報",
    "source_id": "mhlw_latestinfo",
-   "title": "介護保険最新情報Vol.1553（第10期計画期間に向けた第１号保険料に関する検討について）",
-   "org": "厚生労働省老健局介護保険計画課事務連絡",
-   "doc_no": "1553",
-   "date": "2026-11-26",
-   "url": "https://www.mhlw.go.jp/content/001772546.pdf",
-   "pdf": "https://www.mhlw.go.jp/content/001772546.pdf",
-   "tags": [],
-   "id": "6e7abbda1a143731",
-   "alt_urls": [],
-   "first_seen": "2026-11-27T08:53:39.845449+09:00",
-   "title_zh": "介护保险最新信息Vol.1553（关于面向第10期计划期间的第1号保险费探讨）",
-   "summary_zh": "厚生劳动省就第10期介护保险事业计划期间（2027-2029年度）65岁以上参保人（第1号被保险人）保险费的计算方式，向地方政府等发出事务联络，通报相关探讨情况。",
-   "importance": 4
-  },
-  {
-   "source": "厚生労働省 報道発表資料",
-   "source_id": "mhlw_houdou",
-   "title": "「認知症バリアフリー情報交換会・交流会」を開催します（開催案内） NEW",
-   "org": "厚生労働省",
-   "doc_no": null,
-   "date": "2026-11-26",
-   "url": "https://www.mhlw.go.jp/stf/newpage_241219_00014.html",
-   "pdf": null,
+   "title": "介護保険最新情報vol.1554（「介護保険資格確認等WEB サービスとの連携におけるAPI 標準仕様書（第1.01版）」の公開について）",
+   "org": "厚生労働省老健局老人保健課、介護保険計画課、高齢者支援課、認知症施策・地域介護推進課事務連絡",
+   "doc_no": "1554",
+   "date": "2026-11-27",
+   "url": "https://www.mhlw.go.jp/content/001773784.pdf",
+   "pdf": "https://www.mhlw.go.jp/content/001773784.pdf",
    "tags": [
-    "認知症"
+    "信息化/DX"
    ],
-   "id": "9efb43764910f859",
-   "first_seen": "2026-11-27T08:53:39.845449+09:00",
-   "title_zh": "将举办「认知症无障碍信息交流会·交流会」（举办通知） NEW",
-   "summary_zh": "面向相关方举办认知症无障碍信息交流会，旨在促进经验分享与协作，属于活动通知，不涉及制度或要件变更。",
-   "importance": 1
-  },
-  {
-   "source": "厚生労働省 報道発表資料",
-   "source_id": "mhlw_houdou",
-   "title": "「第1回 今後の仕事と育児・介護の両立支援に関する研究会」（ハイブリッド会議）を開催します（開催案内）",
-   "org": "厚生労働省",
-   "doc_no": null,
-   "date": "2023-01-23",
-   "url": "https://www.mhlw.go.jp/stf/newpage_30437.html",
-   "pdf": null,
-   "tags": [],
-   "id": "7c23ce5c004535ec",
-   "first_seen": "2026-11-27T08:53:39.845449+09:00",
-   "title_zh": "将举办「第1次 关于今后工作与育儿・介护兼顾支援的研究会」（混合会议）（会议通知）",
-   "summary_zh": "厚生劳动省召开研究会首次会议，讨论在职人员兼顾工作与育儿、介护的支援政策方向，为后续制度调整提供依据。",
-   "importance": 2
+   "id": "c9f786c18e3b41d5",
+   "alt_urls": [],
+   "first_seen": "2026-11-28T08:50:35.603803+09:00",
+   "title_zh": "介护保险最新情报Vol.1554（关于公开《与介护保险资格确认等WEB服务联动中的API标准规格书（第1.01版）》）",
+   "summary_zh": "厚生劳动省公开介护保险资格确认等WEB服务联动所需的API标准规格书第1.01版，供相关系统开发商和保险者参照实施。",
+   "importance": 3
   }
  ],
  "errors": []

@@ -1,0 +1,26 @@
+{
+ "generated_at": "2026-11-28T08:50:35.603803+09:00",
+ "years": 10,
+ "mode": "increment",
+ "total_archived": 1197,
+ "new_count": 1,
+ "new_items": [
+  {
+   "source": "厚生労働省 介護保険最新情報",
+   "source_id": "mhlw_latestinfo",
+   "title": "介護保険最新情報vol.1554（「介護保険資格確認等WEB サービスとの連携におけるAPI 標準仕様書（第1.01版）」の公開について）",
+   "org": "厚生労働省老健局老人保健課、介護保険計画課、高齢者支援課、認知症施策・地域介護推進課事務連絡",
+   "doc_no": "1554",
+   "date": "2026-11-27",
+   "url": "https://www.mhlw.go.jp/content/001773784.pdf",
+   "pdf": "https://www.mhlw.go.jp/content/001773784.pdf",
+   "tags": [
+    "信息化/DX"
+   ],
+   "id": "c9f786c18e3b41d5",
+   "alt_urls": [],
+   "first_seen": "2026-11-28T08:50:35.603803+09:00"
+  }
+ ],
+ "errors": []
+}
